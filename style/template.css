@@ -1,0 +1,47 @@
+/* "mobile-first" */
+body {
+    background-color: #306cbe;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.infos, .contact {
+    background-color: white;
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 600px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+h1, h3, label, p {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input, textarea, img {
+    margin-left: 5px;
+}
+
+button {
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+img {
+    width: 5%;
+    height: 5%;
+}
+
+/* for desktop (and tablets) */
+@media screen and (min-width: 426px) {
+    .infos, .contact {              
+        width: 45%;
+        float: left;
+    }
+}
